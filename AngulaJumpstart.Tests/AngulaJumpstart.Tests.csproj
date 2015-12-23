@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+    <Content Include="ng-test\MainCtrlSpec.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
