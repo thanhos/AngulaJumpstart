@@ -95,7 +95,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+    <Content Include="css\jasmine.css" />
     <Content Include="ng-test\MainCtrlSpec.js" />
+    <Content Include="Scripts\jasmine-html.js" />
+    <Content Include="Scripts\jasmine.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

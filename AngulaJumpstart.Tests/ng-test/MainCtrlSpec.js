@@ -1,4 +1,9 @@
-﻿describe("Controller: MainCtrl", function() {
+﻿
+/// <reference path="../../angulajumpstart/scripts/angular.js" />
+/// <reference path="../../angulajumpstart/scripts/angular-mocks.js" />
+/// <reference path="../../AngulaJumpstart/Scripts/ng-scripts/MainCtrl.js"/>
+
+describe("Controller: MainCtrl", function () {
   beforeEach(module("MyApp"));
   var MainCtrl, scope;
   beforeEach(inject(function($controller) {
@@ -11,3 +16,4 @@
     expect(scope).toBeDefined();
   });
 });
+
